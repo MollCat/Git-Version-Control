@@ -32,12 +32,13 @@ h1:hover {
     background-color:cadetblue;
     color:black;
 }
-.section:hover {
+.section {
     display: block;
     width: 60vw;
     margin: 0 auto 0 auto;
     padding: 2% 50px 2% 50px;
-    background-color:black;
-    color:white;
+}
+.section:hover {
+    margin: 0 auto 5% auto;
     box-shadow: 5px 5px 5px ghostwhite;
 }
