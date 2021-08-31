@@ -1,22 +1,40 @@
 body {
-    background-color: #588B8B;
+    background-color:mediumslateblue;
     color: black;
+    font-family: "Alice";
 } 
 
 h1 {
-    color: #F28F3B
+    display: block;
+    margin: 0 auto 0 auto;
+    background-color:cadetblue;
+    color:black;
 }
 #summary {
-    display: block;
-    width: 90vw;
-    margin: 0 auto 0 auto;
+    background-color:thistle;
+    color:black;
     padding: 2% 50px 2% 50px;
-    background-color: #ffffff;
 }
-
 #portrait {
     display: block;
     width: 35%;
     max-width: 300px;
-    margin: 0 auto 0 auto
+    margin: 0 auto 0 auto; 
 } 
+#edu-history {
+    background-color:thistle;
+    color:black;  
+}
+#job-history {
+    background-color:cadetblue;
+    color:black;
+}
+.section {
+    display: block;
+    width: 90vw;
+    margin: 0 auto 0 auto;
+    padding: 2% 50px 2% 50px;
+    background-color:black;
+    color:white;
+
+}
